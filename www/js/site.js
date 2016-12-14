@@ -78,14 +78,14 @@ function ClearPages ()
 		$('.modal-close').hide();
 		$('.modal-close2').hide();
 		$('button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close').trigger('click');
-			//$(".home").load("page-snippets/home.html", function(){
-			$(".home").load("page-snippets/discover.html", function(){
+			$(".home").load("page-snippets/home.html", function(){
+			//$(".home").load("page-snippets/discover.html", function(){
 			//$(".home").load("page-snippets/portfolio.html", function(){
 			//$(".home").load("page-snippets/portfolio-v2.html", function(){
 			//$(".home").load("page-snippets/develop.html", function(){
 			//$(".home").load("page-snippets/study-design-a1.html", function(){
-				//$(".pg-discover").load("page-snippets/discover.html", function(){
-					/*
+				$(".pg-discover").load("page-snippets/discover.html", function(){
+					
 					$(".pg-portfolio").load("page-snippets/portfolio.html",function(){
 						$(".pg-develop").load("page-snippets/develop.html", function(){
 							$(".pg-develop-home").load("page-snippets/develop-home.html", function(){
@@ -116,7 +116,7 @@ function ClearPages ()
 					});
 						
 				});
-				*/
+				
 			//});
 		}).addClass('visible');
 	})();
